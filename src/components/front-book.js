@@ -26,7 +26,7 @@ const MidBook = (props) => {
                             </h1>
 
                             <p>
-                                The American Revolutionary War is over! The Treaty of Paris is signed. British troops have left New York and returned to England. The Republic is safe...or is it? That's what everyone believed. But brewing across the waters is more unrest....
+                            A small group of highly skilled mercenaries who report directly to the vice president are sent anywhere in the world to defend America's interests. Their mission can be rescuing a scientist in a Chinese prison to eliminating a bomber inside Iran....
                             </p>
 
                             <button className="btn-book-featured">

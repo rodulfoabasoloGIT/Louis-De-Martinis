@@ -12,7 +12,7 @@ const Author = () => {
                     <div className="grid-child" id="author-contents">
 
                         <p>
-                        Bruce E. Scott is a native of Louisville, KY, son of Mae Teresa Scott and a graduate of Male High School. Right after graduating from high school, he enlisted in the United States Marine Corps (USMC). While serving in Iran he was given two novels to read, ¬ the Destroyer by Warren Murphy and ¬ the Executioner by Don Pendleton. After reading both novels he became so intrigued, he read the series, and this started his love for fictional books...
+                        After a stint in the Marine Corps, he finished his education obtaining a master's degree from S.U.N.Y. retiring from the N.Y.P.D. as a detective Lieutenant.  He went on to the Department of Justice and the worked for President Regan's Organized Crime Commission as the Deputy Director of Investigations.  Upon returning the Department of Justice, he became the Deputy Inspector General in charge of Investigations...
                         </p>
 
                         <h1 className="author-name-tag">

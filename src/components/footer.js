@@ -23,7 +23,7 @@ const Footer = () => {
                         </h1>
 
                         <p>
-                            Bruce Scott loves to hear from readers. You can reach him via email.
+                            Louis De Martinis loves to hear from readers. You can reach him via email.
                             Feel free to send questions about writing, his works, interviews
                             and other publicity matters.
                         </p>
