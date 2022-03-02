@@ -14,7 +14,7 @@ const ATB = (props) => {
     return (
         <>
             <Layout>
-                <Helmet title="About the Author | Bruce Scott" />
+                <Helmet title="About the Author | Louis De Martinis" />
                 <Nav pathExt={props.path} />
 
                 <Banner
@@ -49,13 +49,13 @@ const ATB = (props) => {
                         <article className="article-section column" id="author">
 
                             <p>
-                                Bruce E. Scott is a native of Louisville, KY, son of Mae Teresa Scott and a graduate of Male High School. Right after graduating from high school, he enlisted in the United States Marine Corps (USMC). While serving in Iran he was given two novels to read, ¬ the Destroyer by Warren Murphy and ¬ the Executioner by Don Pendleton. After reading both novels he became so intrigued, he read the series, and this started his love for fictional books. Mr. Scott was a student of Tae Kwan Do, which he holds a black belt. After serving in the USMC, he return to his hometown, Louisville, KY where he now resides and especially enjoys Sunday fellowship with his fiancé at their church, Christ the King.
+                            After a stint in the Marine Corps, he finished his education obtaining a master's degree from S.U.N.Y. retiring from the N.Y.P.D. as a detective Lieutenant.  He went on to the Department of Justice and the worked for President Regan's Organized Crime Commission as the Deputy Director of Investigations.  Upon returning the Department of Justice, he became the Deputy Inspector General in charge of Investigations.
                             </p>
 
                             <p>
                                 <span className="author-name">
                                     <span className="author-span-ft">Author | Writer </span>
-                                    <span className="ata-name">Bruce Scott</span>
+                                    <span className="ata-name">Louis De Martinis</span>
                                 </span>
                             </p>
 
