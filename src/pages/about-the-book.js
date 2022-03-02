@@ -13,7 +13,7 @@ const ATB = (props) => {
     const slug = (props.location.href);
 
     const disqusConfig = {
-        shortname: 'bruce-scott',
+        shortname: 'louis-martinis',
         config: { identifier: 12, slug }
     }
 
@@ -21,7 +21,7 @@ const ATB = (props) => {
     return (
         <>
             <Layout>
-                <Helmet title="About the Book | Bruce Scott" />
+                <Helmet title="About the Book | Louis De Martinis" />
                 <Nav pathExt={props.path} />
 
                 <Banner
@@ -36,19 +36,16 @@ const ATB = (props) => {
 
                         <BookInfo
                             data={{
-                                title: `The Five`,
+                                title: `RESCUE`,
                                 spanFirst: ``,
                                 imgSrc: Book1,
                                 id: 'sailor-sermon',
                                 content:
                                     `
                                     <p>
-                                    The American Revolutionary War is over! The Treaty of Paris is signed. British troops have left New York and returned to England. The Republic is safe...or is it? That's what everyone believed. But brewing across the waters is more unrest. The Five has been given the assignment to find out and stop the unrest, even on enemy soil.
+                                    A small group of highly skilled mercenaries who report directly to the vice president are sent anywhere in the world to defend America's interests. Their mission can be rescuing a scientist in a Chinese prison to eliminating a bomber inside Iran.
                                     </p>
-                                    <br>
-                                    <p>
-                                    Who are "the Five"? How do they accomplish their missions? Find out this and more from first-time author Bruce E. Scott in this historical romance fiction thriller, The Five.
-                                    </p>
+                                 
                                     `,
                                 ebooks: {
                                     // stratton: 'https://www.stratton-press.com/books/heroes-and-villains-california-dreaming-book-i/',

@@ -26,7 +26,7 @@ const MidBook = (props) => {
                             </h1>
 
                             <p>
-                            A small group of highly skilled mercenaries who report directly to the vice president are sent anywhere in the world to defend America's interests. Their mission can be rescuing a scientist in a Chinese prison to eliminating a bomber inside Iran....
+                            A small group of highly skilled mercenaries who report directly to the vice president are sent anywhere in the world to defend America's...
                             </p>
 
                             <button className="btn-book-featured">
