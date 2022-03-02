@@ -159,7 +159,7 @@
     // margin-left: 18em;
 
     h1 {
-        background: -webkit-linear-gradient(#ffffff, #ffffff);
+        background: -webkit-linear-gradient(#7a6363,#c1c1c1);
         -webkit-background-clip: text;
         -webkit-text-fill-color: #00000000;
         padding: 0;
@@ -167,7 +167,6 @@
         font-family: 'PROGRESS PERSONAL USE';
         font-size: 10em;
         letter-spacing: 4px;
-        text-shadow: 6px 5px #f8f8f838 !important;
         line-height: 125px;
 
         &:after {
