@@ -1,0 +1,1802 @@
+/*
+* Responsive Media Queries
+*/
+@media screen and (max-width : 1366px){
+    .container-gt{
+        .grid-child-elem{
+
+            .banner-text {
+            h1{
+                font-size: 6em;
+                letter-spacing: 2px;
+               
+            } 
+            span{
+                font-size: 105px;
+            }
+            // padding-left: 50px  ;
+            padding-top: 15em;
+            padding-left: 6em;
+            // margin-left: 25em;
+        }                  
+    
+        }
+    
+    }
+    .flex-container{
+        &::before{
+            transform: translate(36%, 0%);
+        }
+        h1{
+            font-size: 29px;
+        }        
+    }
+    
+          
+    .author-name{
+    
+        .ata-name{
+            margin: 0 45px;
+        }
+    }
+    .banner-text .bannertxt {
+        padding-left: 100px;
+        font-size: 40px;
+    }
+
+    .content-wraps p{
+        padding-right: 40px;
+    }
+
+    
+}
+
+@media screen and (max-width : 1620px){
+
+    .banner-text{
+
+        h1{
+            font-size: 7em;
+        }
+
+    }
+
+}
+
+@media screen and (max-width : 1460px){
+
+    .banner-text{
+
+        h1{
+            font-size: 7em;
+        }
+
+        .bannertxt{
+            padding-left: 25px;
+        }
+
+    }
+
+}
+
+@media screen and (max-width : 1350px) {
+    .flex-container {
+        h1 {
+            font-size: 40px;
+            padding: 0 3%;
+        }
+        &::before{
+            transform: translate(30%, 0%);
+        }
+        grid-template-columns: 80%
+    }
+    .banner-text{
+        padding-top: 8em;
+    }
+    .footer-section {
+        padding: 5% 7%;
+    }
+    .footer-paragraph-info img{
+        width: 115px;
+    }
+
+
+    
+}
+
+@media screen and (max-width : 1300px) {
+
+    /*Updated*/
+    .book-wraps {
+        &::before {
+            -moz-transform: translate(-25px, -82px);
+            -webkit-transform: translate(-25px, -82px);
+            transform: translate(-25px, -82px);
+            height: 620px;
+            width: 450px;
+        }
+    }
+    .banner-text{
+        padding-top: 16em;
+    }
+}
+
+
+@media screen and (min-width : 1200px) {
+    body {
+        font-size: 18px;
+    }
+}
+@media screen and (max-width : 1024px){
+    .navigation li a{
+        font-size: 15px;
+    }
+    .navigation li img{
+        width: 100px;
+    }
+
+    .one-grid-columns{
+        height: 50vh;
+    }
+    .banner-section{
+
+        .one-grid-columns{
+
+            justify-content: center ;
+
+            max-width: 550px;
+        }
+        height: 100vh;
+    }
+    .banner-text .bannertxt{
+        padding-left: 0px;
+    }
+    #author-image-container img{
+        width: 370px;
+    }
+    
+    .flex-container{
+        &::before{
+            transform: translate(30%, 0%);
+            font-size: 140px;
+        }
+        h1{
+            font-size: 25px;
+            padding: 0 0%;
+        }
+    }
+    .upper-main {
+        padding: 6% 28px;
+    }
+    .container-gt{
+        .grid-child-elem{
+
+            .banner-text {
+            h1{
+                font-size: 105px;
+                letter-spacing: 7px;
+               
+                .bannertxt{
+                    font-size: 90px;
+                }
+            } 
+            span{
+                font-size:80px;
+            }
+            padding-left: 0px  ;
+            padding-top: 15em; }       
+               
+    
+        }
+    
+    }
+    .banner-text 
+    .ata-name{
+        font-size: 6vw;
+    }
+
+    .testimonial-blocks {
+        .grid-block-wrapper{
+            // grid-template-columns: auto;
+            margin: 0 11%;
+        }
+    }
+}
+@media screen and (min-height : 1366px){
+    .navigation{
+        li{
+            img{
+                width: 94px;
+            }
+            a{
+                font-size: 15px;
+            }
+        }
+    
+    }
+    .author-image-container{
+        img{
+            max-width: 85%;
+        }
+    }
+    .banner-section {
+        height: 65vh;
+    }
+    .banner-text h1{
+        font-size: 9em;
+        letter-spacing: 27px;
+
+    }
+    .flex-container-fx{
+        padding: 0px 65px;
+    }
+    #book-containers {
+        max-width: 880px;
+    }
+    #author{
+        padding-right: 58px;
+        font-size: 14px;
+    }
+    .mid-main{
+        padding: 4% 33px;
+    }
+    .upper-main {
+        padding: 6% 70px;
+    }
+    .ata-name{
+    font-size: 6vw;
+    margin: 0px 100px;
+    }
+    .parallax-bottom{
+        height: 30vh;
+    }
+    .flex-container{
+        height: 30vh;
+    }
+    
+
+}
+
+@media screen and (max-width : 990px) {
+
+    .banner-text{
+        .banner-line2 p{
+            margin: 0px;
+        }
+    }
+    .burger-nav{
+        padding: 0 5%;
+    }
+    .container-gt{
+        .grid-child-elem{
+
+            .banner-text {
+            h1{
+                font-size: 5.5em;
+                letter-spacing: 8px;
+                padding-top: 25rem;   //85px
+            } 
+            span{
+                font-size: 55px;
+            }
+            padding-left: 0  ;
+            padding-top: 1em; }       
+               
+    
+        }
+        
+    }
+    .flex-container h1{
+        padding: 0 12%;
+    }
+    #author{
+        padding: 2rem;
+    }
+
+  
+
+    .one-grid-columns {
+        .right-sub-text {
+            text-align: center;
+           span{
+               font-size: 60px;
+            }
+        }
+    }
+
+    .flex-container {
+        &:before {
+            display: none;
+        }
+    }
+
+    body {
+        font-size: 14px;
+    }
+
+    .button-container {
+        a {
+            &:before {
+                display: none !important;
+            }
+        }
+    }
+
+    .two-grid-columns {
+        grid-template-columns: auto;
+    }
+
+    #author-image-container {
+        margin: 12% auto !important;
+    }
+
+    #author-contents {
+        order: 1;
+    }
+
+    .footer-paragraph-info {
+        img {
+            margin-top: 5%;
+        }
+    }
+
+    .burger-nav {
+        display: flex !important;
+        justify-content: space-between;
+        background-color: #92886600;
+    }
+
+    .grid-layouts {
+        grid-template-columns: auto;
+    }
+
+    .ant-card {
+        width: 75% !important;
+        margin-bottom: 4em ;
+    }
+
+    .hamburger-ul {
+        padding: 14px 10px;
+        background: #787878c7;
+        border-radius: 50px;
+    }
+
+    #banner-layout-responsive {
+
+        &::before,
+        &:after {
+            display: none;
+        }
+    }
+
+    .navigation {
+        display: none;
+    }
+
+    .logo-img {
+        width: 60px;
+        margin-top: 10px
+    }
+
+    .wrapper-auth-content {
+        img {
+            height: auto;
+        }
+    }
+
+    .auth-img-container {
+        text-align: center;
+
+        img {
+            height: 500px;
+        }
+    }
+
+    #banner-layout-responsive {
+        grid-template-columns: auto;
+    }
+
+    .mission-content {
+        grid-template-columns: auto;
+        padding: 0px 5em;
+    }
+
+    #element-text-banner {
+        span {
+            &:nth-child(3) {
+
+                font-size: 1.5rem;
+                letter-spacing: 2px;
+                text-align: center;
+
+
+                &:before {
+                    content: '';
+                    margin: 13px auto;
+                    text-align: center;
+                }
+            }
+        }
+    }
+
+    .footer-container,
+    .grid-element-text,
+    #author-container,
+    #auth-content-wrapper {
+        grid-template-columns: auto;
+        height: auto;
+        text-align: center;
+    }
+
+    .f-letter-elem {
+        font-size: 5rem;
+    }
+
+    #auth-content-wrapper {
+        padding: 13% 10%;
+    }
+
+    .social-media-nav {
+        ul {
+            margin: 3em auto;
+        }
+    }
+
+    .flex-container {
+        grid-template-columns: 100%;
+
+        &:before {
+            color: #f9f1ed61;
+        }
+    }
+
+
+    .newsletter-section {
+        form[method="POST"] {
+            text-align: center;
+        }
+    }
+
+    .container-gt {
+        max-width: 600px;
+    }
+
+    .upper-main {
+
+        padding: 5% 0;
+
+        h1 {
+            font-size: 2.5em;
+        }
+    }
+
+    .grid-two-columns {
+        grid-template-columns: auto;
+    }
+
+    #privacy-policy-content,
+    #terms-and-conditions-content {
+        margin: 4em 1em !important;
+    }
+
+    .close-mark {
+        display: block !important;
+    }
+
+    .columns {
+        margin: 0 ;
+    }
+
+
+    .banner-content-wrapper {
+        h1 {
+            font-size: 1.6em !important;
+        }
+    }
+
+    .book-wraps {
+        order: 1;
+        padding: 0;
+    }
+
+    .content-wraps {
+        order: 2;
+        text-align: center;
+
+        button {
+            margin: 15px auto;
+        }
+    }
+
+    .non-active-nav {
+        display: none;
+    }
+
+    .banner-img {
+        img {
+            display: none;
+        }
+    }
+
+    .banner-img,
+    .book-wraps {
+
+        &:before {
+            display: none;
+        }
+    }
+
+    .hamburger-ul {
+        display: block !important;
+    }
+
+    .active-nav {
+        height: 100vh;
+        position: fixed;
+        z-index: 999;
+        width: 100%;
+        top: 0;
+        background: #252525;
+        right: 0;
+
+        ul {
+            text-align: left;
+            transform: translateY(10em);
+            margin: 0 3em;
+            display: flex;
+            flex-direction: column;
+            height: 60vh;
+            justify-content: center;
+
+            a {
+                text-decoration: none;
+                color: #fff;
+            }
+        }
+    }
+
+    .testimonial-blocks {
+        .grid-block-wrapper{
+            grid-template-columns: auto;
+            margin: 0 11%;
+        }
+    }
+
+}
+@media screen and (max-width : 912px){
+
+    .banner-section{
+
+        height: 80vh;
+    }
+
+    .logo-img{
+        width: 100px;
+    }
+
+    .one-grid-columns{
+        justify-content: end;
+    }
+
+    .banner-text{
+
+        margin-left: 0;
+    }
+    .container-gt{
+        max-width: 750px;
+       
+    }
+
+    .parallax-bottom{
+        height: 40vh;
+    }
+
+    .flex-container{
+        height: 40vh;
+    }
+
+    .container-gt .grid-child-elem .banner-text h1 .bannertxt {
+        font-size: 100px;
+
+    }
+
+    .container-gt .grid-child-elem .banner-text h1{
+
+        padding-top: 20rem;
+    }
+
+   #sailor-sermon{
+        padding-right: 30px;
+    }
+    .author-name .ata-name{
+        font-size: 6vw;
+    }
+
+    .article-section p{
+        font-size:  1em;
+    }    
+    .author-name{
+        text-align: center;
+    }
+    
+}
+@media screen and (max-width : 820px){
+
+    .banner-section{
+
+        height: 80vh;
+    }
+
+    .logo-img{
+        width: 100px;
+    }
+
+    .one-grid-columns{
+        justify-content: end;
+    }
+
+    .banner-text{
+
+        margin-left: 0;
+    }
+    .container-gt{
+        max-width: 750px;
+        margin: 0 20px;
+    }
+
+    .parallax-bottom{
+        height: 40vh;
+    }
+
+    .flex-container{
+        height: 40vh;
+    }
+
+    .container-gt .grid-child-elem .banner-text h1 .bannertxt {
+        font-size: 100px;
+
+    }
+
+    .container-gt .grid-child-elem .banner-text h1{
+
+        padding-top: 20rem;
+    }
+
+   #sailor-sermon{
+        padding-right: 30px ;
+    }
+    .author-name .ata-name{
+        font-size: 6vw;
+    }
+
+    .article-section p{
+        font-size:  1em;
+    }    
+    .author-name{
+        text-align: center;
+    }
+    
+
+
+}
+
+@media (max-width :823px) and (max-height :411px){
+
+    .wrapper-ds{
+        height: 460px;
+    }
+
+    #author{
+        p{
+            font-size: 15px;
+        }
+    }
+
+    .ata-name{
+        font-size: 6vw;
+    }
+
+    .mid-main #logos-col .strattonlogo{
+
+        width: 100%;
+    }
+
+    #lower-footer img{
+        
+        padding-top: 10px;
+    }
+
+    .container-gt .grid-child-elem #bannercontent h1{
+        padding-left: 400px;
+    }
+
+    .container-gt .grid-child-elem #bannercontent {
+
+        margin-left: 0;}
+
+     
+
+
+}
+
+@media (max-width :731px) and (max-height :411px){
+
+    .container-gt .grid-child-elem #bannercontent {
+
+        margin-left: 0;
+
+        h1{
+
+        padding-left: 300px;
+
+    }
+    }
+    
+    
+    
+
+    
+
+
+}
+@media screen and (max-width: 768px){
+    .container-gt{
+        max-width: 750px;
+        padding-bottom: 20px;
+        
+        .banner-text{
+            letter-spacing: 8px;
+            
+            h1{
+                font-size: 87px;
+            letter-spacing: 5x;
+            padding-top: 250px;
+            .bannertxt{
+                font-size: 80px;
+            }
+
+            
+        }
+         
+        
+         span{
+             font-size: 20px;
+         }
+ 
+         .banner-line2 p{
+             font-size: 18px;
+             margin: 0 0px;
+         
+            }
+        
+       }
+    
+    }
+    .container-gt{
+       margin: 0 10px; 
+    } 
+    .mid-main #logos-col{
+        padding-top: 20px;
+        gap: 30px;
+        margin: 7% 0;
+        column-gap: 0px;
+    }
+
+    .mid-main li img{
+        width: 100%;
+        padding: 10px;
+
+    };
+
+    .testimonial-blocks{
+        margin: 3em auto;
+    }
+
+
+
+
+    .container-gt .grid-child-elem .banner-text {
+        h1{
+           
+        padding-top: 25rem;  //240px
+        letter-spacing: 3px;
+        }
+        span{
+            font-size: 55px;
+        }
+    }
+    .logo-img{
+        width: 88px;
+    }
+    
+    .wrapperMain{
+        #book-containers{
+        padding: 0.75rem 30px;
+        }
+    }
+    .author-name{
+        .ata-name{
+            font-size: 60px;
+        }
+    }
+    #sailor-sermon{
+        padding : 2rem;
+    }
+
+    #bannertxt{
+        margin: 0px;
+    }
+
+}
+
+@media (max-width :1366px) and (max-height :761px) {
+
+    .grid-two-columns{
+
+        margin: 0 5%;
+    }
+}
+
+@media (max-width :640px) and (max-height :360px) 
+{
+    .container-gt .grid-child-elem #bannercontent{
+
+        margin-left: 10em;
+
+        h1{
+        padding-left: 1em;
+
+        font-size: 60px;
+        letter-spacing: 0;
+        padding-top: 140px;
+        line-height: 65px;
+
+        .bannertxt{
+
+            font-size: 60px;
+        }
+
+
+
+        
+    }
+    }
+    
+    
+
+    
+}
+@media screen and (max-width: 650px) {
+    .logo-img{
+        width: 65px;
+    }
+    .banner-text {
+        padding-top: 1em;
+        h1{
+            letter-spacing: 12px;
+            font-size: 14vw;
+        }
+
+        .banner-line2 p{
+            margin: 0 0px;
+        }
+    }
+    .one-grid-columns {
+        .right-sub-text span {
+        font-size: 30px;
+        }
+    }
+    .author-name .ata-name {
+        font-size: 40px;
+    }
+
+    .grid-template-four-col {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .banner-section {
+        height: 100vh ;
+    }
+
+    .f-letter-elem {
+        font-size: 15rem;
+    }
+
+
+    .web-banner {
+        h1 {
+            font-size: 2.5em !important;
+        }
+    }
+
+    .wrapperMain {
+        margin: 1em 0 !important;
+    }
+
+    .close-mark {
+        right: 20px;
+    }
+
+    .body-author-contents {
+        padding: 16px ;
+        margin: 0;
+    }
+
+    body {
+        p {
+            font-size: 1em ;
+            padding: 0 18px;
+        }
+    }
+
+    .active-nav {
+        li {
+            font-size: 1.3em;
+        }
+    }
+
+    .bookImgContainer {
+        img {
+            width: 100% !important;
+        }
+    }
+
+    .heading-quote {
+        padding: 0 0px ;
+    }
+
+    .booklinkBlocks {
+        li {
+
+            background: #ff4d4f;
+            margin-bottom: 6px;
+            display: block !important;
+            margin-bottom: 0.6em;
+            padding: 10px 4px ;
+            text-align: center;
+
+            a {
+                padding: 0 ;
+            }
+        }
+    }
+
+    #author-container {
+        height: 100%;
+        grid-template-columns: auto;
+    }
+
+    .upper-main {
+        #wrapper-two-books {
+            margin: 5% 4%;
+        }
+    }
+
+    .grid-two-columns {
+        grid-template: initial;
+        height: auto;
+    }
+
+    #banner-layout-responsive {
+        height: 90vh !important;
+
+        &::before,
+        &:after {
+            display: none;
+        }
+    }
+
+    .newsletter-section {
+        padding: 12% 0;
+    }
+
+    .wrapper-auth-content {
+        text-align: center;
+
+        button {
+            display: block;
+            margin: 2em auto;
+        }
+    }
+
+    .two-grid-column {
+
+        grid-template-columns: auto !important;
+        width: 100%;
+        display: block !important;
+
+        ul {
+            padding: 0;
+
+            li {
+                a {
+                    padding: 0 1em;
+                }
+            }
+        }
+    }
+
+    .container-gt {
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+    .book-wraps {
+        img {
+            width: 100%;
+        }
+    }
+
+    #metalinks-footer {
+        text-align: center;
+
+        li {
+            margin-bottom: 10px;
+        }
+    }
+
+    .logo-developer {
+        display: block !important;
+        margin: 14px auto !important;
+    }
+    .testimonial-section{
+        h1{
+            &:before{
+                content: '';
+                background: #f9bd4f8c;
+                position: absolute;
+                width: 238px;
+                height: 220px;
+                left: 0%;
+                z-index: -1;
+            }
+        }
+    }
+}
+
+@media screen and (max-height: 600px) {
+    .banner-section{
+        height: 100vh;
+    }
+    .one-grid-columns {
+        height: 70vh;
+    }
+   .flex-container{
+       height: 60vh;
+   }
+   .parallax-bottom{
+       height: 65vh;
+   }
+   .flex-container h1 {
+    font-size: 20px;
+   }
+
+//    .container-gt .grid-child-elem #bannercontent h1{
+
+//     // padding-left: 300px;
+//     font-size: 70px;
+//     letter-spacing: 0;
+//     padding-top: 140px;
+//     line-height: 65px;
+
+
+//    }
+}
+
+@media screen and (max-height: 640px) {
+    .active-nav {ul {
+        text-align: left;
+        transform: translateY(3.5em);
+        height: 60vh;  }    
+        
+        li{
+            font-size: 20px;
+            padding:  2px 0;
+        }
+    
+    }
+    .container-gt .grid-child-elem .banner-text {
+        h1{
+            font-size: 70px;
+        letter-spacing: 5px;
+        padding-top: 0px;
+        padding-left: 200px;
+
+        .bannertxt{
+            font-size: 80px
+        }
+        }
+        span{
+            font-size: 66px;
+        }
+    }
+    .banner-section {
+        height: 100vh;
+    }
+    .logo-img {
+        width: 61px;
+    }
+    .parallax-bottom{
+        height: 90vh;
+    }
+    .flex-container h1 {
+        font-size: 30px;
+        padding-top: 60px;
+    }
+
+    .banner-text{
+        
+        .bannertxt{
+        padding-left: 0px;}
+
+        padding-top: 15em;
+
+
+
+    } 
+}
+
+
+@media screen and (max-height: 500px) {
+    .active-nav {ul {
+        text-align: left;
+        transform: translateY(3.5em);
+        height: 60vh;  }    
+        
+        li{
+            font-size: 20px;
+            padding:  2px 0;
+        }
+    
+    }
+    .container-gt .grid-child-elem .banner-text {
+        h1{
+            font-size: 80px;
+        letter-spacing: 5px;
+        padding-top: 0px;
+        }
+        span{
+            font-size: 66px;
+        }
+    }
+    .banner-section {
+        height: 100vh;
+    }
+    .logo-img {
+        width: 80px;
+    }
+    .parallax-bottom{
+        height: 90vh;
+    }
+    .flex-container h1 {
+        font-size: 30px;
+        padding-top: 60px;
+    }
+
+    .banner-text{
+        
+        .bannertxt{
+        padding-left: 0px;}
+
+        padding-top: 15em;
+
+
+
+    } 
+}
+@media screen and (max-height: 370px){
+    .container-gt{
+       max-width: 600px;
+       
+       #bannertxt{
+           letter-spacing: 8px;
+       }
+        
+        .grid-child-elem .banner-text {
+        h1{
+            font-size: 40px;
+        letter-spacing: 5x;
+        padding-top: 80px;
+        .bannertxt{
+            font-size: 40px;
+        }
+
+    
+        }
+        span{
+            font-size: 20px;
+        }
+
+        .banner-line2 p{
+            font-size: 15px;
+        }
+    }
+  
+  
+    .banner-text{
+        margin: 0 0px;
+    }
+
+
+
+    }
+    
+    
+    
+
+}
+@media screen and (max-width: 650px){
+    .container-gt .grid-child-elem .banner-text span {
+        font-size: 49px;
+    }
+    .flex-container h1 {
+        font-size: 29px;}
+
+}
+
+@media screen and (max-width: 550px) {
+   
+    .heading-quote{ 
+        h4{
+        margin: 0 5%''}
+
+    }
+
+    .testimonial-section h1 span{
+        font-size: 1em;
+    }
+
+   
+
+    .column {
+        padding: 1rem;
+    }
+
+    .mid-main {
+        padding-top: 20px;
+    }
+
+
+    .art-columns {
+        flex: auto !important;
+        max-width: 100% !important;
+        padding: 0 !important;
+        height: auto !important;
+    }
+
+    .art-row {
+        height: 100% !important;
+    }
+
+    .flex-container {
+        &:before {
+            display: none;
+        }
+    }
+
+    .mission-content {
+        padding: 0 2em;
+    }
+
+    .flex-container {
+        h1 {
+            margin: 0 1px;
+            font-size: 20px;
+            text-shadow: 1px 1px #000000;
+        }
+    }
+
+    .span-verse {
+        &:before {
+            margin: 6px 4px;
+        }
+    }
+
+    .social-media-nav {
+        ul {
+            text-align: center;
+
+            li {
+                text-align: center;
+            }
+        }
+    }
+
+    .mission-wrapper {
+        .header {
+            letter-spacing: 0px;
+        }
+    }
+
+   
+    .container-gt{
+        .one-grid-columns{
+            justify-content: space-evenly;
+        }
+        .grid-child-elem{
+
+            .banner-text {
+            h1{
+                font-size: 85px;
+                letter-spacing: 5px;
+                padding-top: 260px;
+
+                .bannertxt{
+                    font-size: 80px;
+                }
+            } 
+            span{
+                font-size: 80px;
+            }
+            padding-left: 0px  ;
+            padding-top: 4em;
+            margin: 0;
+         }       
+               
+    
+        }
+    
+    }
+    .testimonial-blocks .grid-block-wrapper .testimonial-block-element .testimonial-num{
+        transform: translate(-30px, -108px);
+
+    }
+    
+
+}
+
+@media screen and (max-width: 450px) {
+    .banner-section{
+        background-position: -20em;
+    }
+
+    .article-section p{
+
+        font-size: 1em;
+        padding: 0;
+     
+    
+    }
+
+
+    .testimonial-blocks .grid-block-wrapper{
+        gap: 0em;
+    }
+    .container-gt .grid-child-elem .banner-text h1{
+        padding-top: 50px;
+    }
+    .two-grid-column{
+        
+        text-align: center;
+        p{
+            padding-left: 0px;
+            padding: 0 0;
+        }
+        
+        
+    
+    }
+    .banner-section {
+        height: 95vh ;
+    }
+
+    .banner-text{
+        
+        h1{
+            line-height: 65px;
+        }
+        p{
+            border-radius: 50px;
+        }
+        
+        
+        .banner-line2 {
+            margin: 0;
+
+            p{
+                margin: 0px;
+                font-size: 15px;
+                padding: 0;
+                padding-top: 20px;
+                background-color: rgba(186, 248, 170, 0);
+            }
+        }
+        
+        .bannertxt{
+            padding-left: 0px;
+        }
+
+
+    } 
+
+    .grid-two-columns{
+        margin: 0 8%;
+
+        #author-contents span{
+            letter-spacing: 1px;
+            font-size: 1em;
+           
+        }
+        .author-name-tag{
+            font-size: 40px;
+            margin-top: 9%;
+        }
+
+
+
+    }
+    .testimonial-blocks .grid-block-wrapper .testimonial-block-element .testimonial-num{
+        transform: translate(-16px, -106px);
+        background: #f9bd4f8c;
+    }
+
+
+    
+    .container-gt{
+        .one-grid-columns{
+            justify-content: center;
+        }
+        .grid-child-elem{
+
+            .banner-text {
+            h1{
+                font-size: 60px;
+                letter-spacing: 0px;
+                margin-left: 0;
+                margin-right: 0;
+                padding-top: 220px;
+
+                .bannertxt{
+                    font-size: 65px;
+                }
+            } 
+            span{
+                font-size: 50px;
+            }
+            padding-left: 0px  ;
+            padding-top: 3em; }       
+               
+    
+        }
+    
+    }
+    .author-name .ata-name {
+        font-size: 40px;        
+        margin: 0 30px;
+    
+    }
+    
+
+    .ant-card-meta-title {
+        font-size: 24px !important;
+    }
+
+
+    .social-media-nav {
+        ul {
+            li {
+                a {
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+
+    .flex-container {
+        h1 {
+            font-size: 21px;
+            text-align: center;
+        }
+        .span-verse{
+            font-size: 27px;
+        }
+        
+    }
+
+    .form-newsletter-wrapper {
+        button {
+            display: block;
+            margin: 1em auto;
+        }
+    }
+   
+
+    .heading-quote {
+        margin: 0 0;
+       p {
+           margin-top: 1em ;
+        }
+    }
+
+    .div-text-elem {
+        &:nth-child(2) {
+            span {
+                font-size: 22px;
+            }
+        }
+    }
+
+    .auth-img-container {
+        img {
+            height: auto;
+        }
+    }
+
+    .form-newsletter-wrapper {
+        input[name="email"] {
+            width: 100%;
+        }
+    }
+    #sailor-sermon {
+        padding: 0;
+    }
+    .testimonial-section{
+        h1{
+            font-size: 2.5em;
+        }
+    }
+}
+
+
+@media screen and (max-height: 450px){
+
+    #author-contents h1 span{
+
+        font-size:  1em;
+    }
+    .container-gt{
+        max-width: 700px;
+        padding-bottom: 20px;
+        
+        #bannertxt{
+            letter-spacing: 8px;
+        }
+         
+         .grid-child-elem .banner-text {
+         h1{
+             font-size: 70px;
+         letter-spacing: 0;
+         padding-top: 140px;
+         line-height: 65px;
+         padding-right: 230px;
+         
+         .bannertxt{
+             font-size: 80px;
+             text-shadow: 0px 2px #00000038;
+             
+             
+         }
+ 
+     
+         }
+         span{
+             font-size: 20px;
+         }
+ 
+         .banner-line2 p{
+             font-size: 15px;
+             margin: 0 0px;
+         }
+     }
+   
+   
+     .banner-text{
+         margin: 0 0px;
+    }}
+
+   
+
+
+     
+ 
+ 
+ 
+     
+}
+
+@media screen and (max-width: 390px){
+    .container-gt .grid-child-elem .banner-text h1 {
+        font-size: 60px;
+        padding-top: 220px;
+        letter-spacing: 1px;
+    
+    }
+
+
+}
+
+@media screen and (max-width: 375px){
+    .flex-container-fx {
+        padding: 0 25px !important;
+
+        .contactMessage {
+            font-size: 18px !important;
+        }
+    }
+
+    .author-name{
+       .ata-name {
+        font-size: 40px;
+    } 
+    }
+
+    .flex-container {
+        h1 {
+            font-size: 15px;
+            padding: 0 4%;
+        }
+    }
+    
+    .span-verse{
+        font-size: 24px;
+    }
+}
+@media screen and (max-width: 320px){
+    .container-gt .grid-child-elem .banner-text h1 {
+        font-size: 60px;
+        padding-top: 120px;
+        letter-spacing: 5px;
+        .bannertxt{
+            font-size: 55px;
+        }
+
+       
+
+       
+    }
+
+
+    .testimonial-section h1 span{
+        font-size: 45px;
+    }
+    .container-gt .one-grid-columns {
+        justify-content: space-around;
+    }
+    .container-gt .grid-child-elem .banner-text {
+        padding-left: 0px;
+        padding-top: 3em;
+        margin: 0;
+    }
+    .one-grid-columns .right-sub-text span {
+        font-size: 28px;
+    }
+    .container-gt .grid-child-elem .banner-text span {
+        font-size: 40px;
+    }
+   
+    .banner-section {
+        height: 95vh;
+    }
+    .banner-section {
+        height: 100vh;
+    }
+    .flex-container h1 {
+        font-size: 17px;
+        /* padding: 0 0%; */
+    }
+    .author-name{
+        margin: 0px 0px;
+    }
+    body{
+        p{
+            padding: 0 0;
+        }
+    }
+    .author-name .ata-name {
+        font-size: 0 30px;        
+       
+    
+    }
+
+    #disqus_thread{
+        padding: 0;
+    }
+    
+  
+
+
+    @media screen and (max-width: 280px){
+        .container-gt{
+            #bannertxt{
+                h1{
+                    font-size:50px;
+                letter-spacing: 5px;
+                padding-top: 250px;
+                .bannertxt{
+                    font-size: 45px;
+                }
+   
+                }
+
+
+            }
+
+
+        }
+
+        #sailor-sermon{
+            padding: 0 20px ;
+        }
+            
+         
+
+
+        .testimonial-section h1 span{
+            font-size: 42px;
+        }
+        .testimonial-blocks .grid-block-wrapper{
+            gap: 1em; 
+        }
+        .mid-main h1{
+            font-size: 3em;
+        }
+        
+        .heading-quote {
+            padding: 0 10px;
+        }
+        .author-name .ata-name {
+            font-size: 27px;
+        }
+        .column{
+            padding: 0;
+        }
+        .burger-nav{
+            width: 100%;
+            position: fixed;
+        }
+        .banner-text {
+            padding-top: 8em;
+
+            .banner-line2{
+                margin: 0 0px;
+                p{
+                    font-size: 16px;
+                }
+            }
+        }
+        .one-grid-columns .right-sub-text span {
+            font-size: 25px;
+        }
+        .wrapperMain #book-containers {
+            padding: 0.75rem 20px;
+
+           
+        }
+        .container-gt{
+            .one-grid-columns{
+                justify-content: space-evenly;
+            }
+            .grid-child-elem{
+    
+                .banner-text {
+                h1{
+                    font-size: 3.5em;
+                    letter-spacing: 1px;
+                } 
+                span{
+                    font-size: 50px;
+                }
+                padding-left: 0px  ;
+                padding-top: 5em; }  
+                
+                #bannerline2 p{
+                    font-size: 15px;
+                }
+                   
+        
+            }
+        
+        }
+        
+        
+
+    }
+
+}
+
+
+/***
+  ================
+    End of Styles
+  ================
+****/

@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fanwood+Text:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import "responsive";
+@import "normalize";
+@import "banner";
+@import "navigation";
+@import "content";
+@import "footer";
+@import "blog";
+
+
+/*Fonts Declaration*/
+@font-face {
+    font-family: "augusta-free";
+    /*a name to be used later*/
+    src: url("../../../static/fonts/august_free_bold.ttf") format('truetype');
+    /*URL to font*/
+    // font-weight: normal;
+}
+
+@font-face {
+    font-family: "Aneisha demo";
+    /*a name to be used later*/
+    src: url("../../../static/font/Aneishademo.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: "BKANT";
+    /*a name to be used later*/
+    src: url("../../../static/font/bkant.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: "Tangerine";
+    /*a name to be used later*/
+    src: url("../../../static/font/Tangerine_Regular.ttf") format('truetype');
+}
+
+
+@font-face {
+    font-family: "NaftaLight";
+    /*a name to be used later*/
+    src: url("../../../static/font/___NaftaLight-Regular.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: "three";
+    /*a name to be used later*/
+    src: url("../../../static/font/_Threefortysixbarrel.ttf") format('truetype');
+}
+
+body {
+    font-family: 'Poppins', sans-serif !important;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+h1,
+h2 {
+    font-size: 1.6em;
+    color: #85161b !important;
+}
+
+h3,
+h4 {
+    font-size: 1.2em;
+}
+
+h5,
+h6 {
+    font-size: 1.0em;
+}
+
+
+p,
+a,
+qoute,
+span,
+blockquote {
+    font-size: 1.3em;
+    // color: #7b7b7bee !important;
+}
+
+a {
+    color: #000 !important;
+}
+
+p {
+    line-height: 1.7;
+    margin: 2.2em 0;
+    color: #6b6b6b;
+}
+
+label {
+    color: #636262;
+}
+
+
+
+button {
+    // background-color: #1d2e7e;
+    border: none;
+    padding: 2% 20px;
+    margin-top: 6%;
+
+    a {
+        color: #fff !important;
+        text-decoration: none;
+        cursor: pointer;
+        font-size: 15px;
+    }
+}
+
+// #author-contents{
+
+//         .btn-book-featured {
+//             background: none;
+//             border: 2px solid #8ba1d0;
+//             border-radius: 40px;
+//             padding: 2% 16%;
+//             margin-top: 5%;
+
+//             a{
+//                 text-transform: uppercase;
+//                 color: #8ba1d0 !important;
+//             }
+//             &:hover{
+//                 background-color: #8ba1d0;
+//                 a
+//                 {color: white !important;
+
+//                 }
+//             }
+//         }
+
+
+// }
+
+
+
+.btn-book-featured {
+
+    background: none;
+    border: 2px solid #c0c0c0;
+    border-radius: 40px;
+    padding: 2% 16%;
+    margin-top: 5%;
+
+    a {
+        text-transform: uppercase;
+        color: hsl(0, 0%, 27%) !important;
+    }
+
+    // &:hover{
+    //     background-color: hsl(49, 79%, 68%);
+    //     a{
+    //         color: white !important;
+    //     }
+    // }r
+}
+
+.content-wraps {
+    .italic-tag {
+        color: #ffff;
+    }
+
+    p {
+        color: #000;
+        font-weight: 500;
+    }
+}
+
+button {
+    #authorbtn {
+        background: none;
+        border: 2px solid #c0c0c0;
+        border-radius: 40px;
+        padding: 2% 16%;
+        margin-top: 5%;
+
+        a {
+            text-transform: uppercase;
+            color: #474747 !important;
+        }
+
+        // &:hover{
+        //     background-color: hsl(49, 79%, 68%);
+        //     a{
+        //         color: white !important;
+        //     }
+        // }
+
+    }
+
+}
+
+
+
+#___gatsby {
+    background: linear-gradient(130deg, #ad8787 0, #ffffff);
+}
+
+/*Grid Elements*/
+.grid-two-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: auto;
+    margin: 0 12%;
+    align-items: center;
+}
+
+.grid-template-four-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+}
+
+.container-gt {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+// .heading-quote{
+//     h4{
+//         margin: 0 5%;
+//     }
+// }
