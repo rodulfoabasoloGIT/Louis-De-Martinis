@@ -12,7 +12,8 @@ import ParallaxBottom from "../components/parallax-bottom"
 
 const IndexPage = (props) => (
     <Layout>
-        <Helmet title="Home | Louis De Martinis"/>
+        <Helmet
+        title="Home | Louis De Martinis"/>
         <Nav pathExt={props.path} />
         <Banner />        
         <MidBook />

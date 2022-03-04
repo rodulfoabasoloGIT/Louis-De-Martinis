@@ -3,7 +3,7 @@ import { Link } from 'gatsby'
 import { faTwitter, faInstagram, faFacebook, faGoodreads } from '@fortawesome/fontawesome-free-brands'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import LogoFooter from '../../static/logo/logo updated.png'
-import Logo from '../../static/logo/jamesbosleylogo.png'
+import Logo from '../../static/logo/rescue.png'
 import Newsletter from "./newsletter"
 
 

@@ -150,7 +150,7 @@
 
 /*Modification*/
 .banner-text {
-
+    
     padding-top: 20em;
     line-height: 1;
     // position: relative;
@@ -162,21 +162,15 @@
         background: -webkit-linear-gradient(#fff, #262626);
         -webkit-background-clip: text;
         -webkit-text-fill-color: #00000000;
-        padding: 0;
+        padding: 0 0 0 50px;
         text-align: center;
         font-family: 'PROGRESS PERSONAL USE';
         font-size: 30em;
         letter-spacing: 4px;
         line-height: 125px;
-    
-
         &:after {
             content: '';
         }
-
-
-
-
     }
 
     .bannertxt {
