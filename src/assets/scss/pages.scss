@@ -180,6 +180,7 @@ $prm-font-size : 12px;
         font-size: 13px;
         letter-spacing: 1px;
         margin-bottom: 13px;
+        color: white;
     }
 }
 
@@ -191,7 +192,7 @@ $prm-font-size : 12px;
 .contactMessage {
     font-size: 20px !important;
     margin-bottom: 24px !important;
-    color: #575757;
+    color: #fff;
 }
 
 .flexMainContainer {
@@ -210,7 +211,7 @@ $prm-font-size : 12px;
 .abtiaryButton {
     padding: 13px 74px;
     border: none;
-    background: #049cd4;
+    background: #85161b;
     color: #fff;
     text-transform: uppercase;
     margin-top: 39px;
@@ -281,7 +282,7 @@ $prm-font-size : 12px;
 
     a {
         text-decoration: none;
-        background: #ff4d4f;
+        background: #d1666b;
         padding: 4px 15px;
         color: #ffffff !important;
         font-size: 13px;
@@ -387,9 +388,9 @@ $prm-font-size : 12px;
 .contentBook {
     h1 {
         text-align: left;
-        font-size: 2rem;
+        font-size: 3rem;
         font-weight: 900;
-        color: #394f70 !important;
+        color: #85161b !important;
         line-height: 1;
         text-transform: uppercase;
     }
@@ -484,41 +485,40 @@ $prm-font-size : 12px;
     font-size: 25px;
 }
 
-button{
+button {
     background: none;
     border: 2px solid #000000;
     border-radius: 40px;
-    padding: 2% 10%;
+    padding: 10px 40px 10px 40px;
     margin-top: 5%;
+    cursor: pointer;
         
-    a{
-    text-transform: uppercase;
-    color: hsl(0, 0%, 27%) !important;
+    h2{
+
+    color: hsl(0, 3%, 6%) !important;
      }
         
     &:hover{
-        background-color: hsl(4, 67%, 32%);
-        a{
-          color: white !important;
+        background-color: #24a0ed;
+        transition: 0.5s;
+
+        h2{
+        transition: 0.20s;
+        color: white !important;
         }
+
     }
  }
 
 
 .btn-book-featured{
-    
+
     background: none;
     border: 2px solid #000000;
     border-radius: 40px;
     padding: 2% 16%;
     margin-top: 5%;
-
-    a{
-        text-transform: uppercase;
-        color: hsl(0, 0%, 27%) !important;
-    }
-
-   
+    cursor: pointer;
 }
 
 

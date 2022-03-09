@@ -12,7 +12,7 @@ const Author = () => {
                     <div className="grid-child" id="author-contents">
 
                         <p>
-                        After a stint in the Marine Corps, he finished his education obtaining a master's degree from S.U.N.Y. retiring from the N.Y.P.D. as a detective Lieutenant.  He went on to the Department of Justice and the worked for President Regan's Organized Crime Commission as the Deputy Director of Investigations.  Upon returning the Department of Justice, he became the Deputy Inspector General in charge of Investigations...
+                        After a stint in the Marine Corps, he finished his education obtaining a master's degree from S.U.N.Y. retiring from the N.Y.P.D. as a detective Lieutenant.  He went on to the Department of Justice and the worked for President Regan's Organized Crime Commission as the Deputy Director of Investigations.  
                         </p>
 
                         <h1 className="author-name-tag">
@@ -23,9 +23,10 @@ const Author = () => {
                             Author & Writer
                         </span>
 
-                        <button >
-                            <Link to="/about-the-author">Read More</Link>
-                        </button>
+                       
+                            <Link to="/about-the-author">
+                                <button><h2>READ MORE</h2></button>
+                            </Link>
                     </div>
 
                     <div className="grid-child" id="author-image-container">

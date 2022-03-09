@@ -36,7 +36,7 @@
     align-items: center;
     z-index: 999;
     position: absolute;
-    background: #7c7c7cbf;
+    background: linear-gradient(180deg,#09262a,transparent);
 
     h1 {
         a {
@@ -64,6 +64,7 @@
         }
 
         img {
+            margin-top: 5px;
             width: 115px;
             max-width: 100%;
         }

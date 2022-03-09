@@ -1,11 +1,12 @@
 .footer-section {
-    background: linear-gradient(360deg, #324834 0, #c7c7c7);    
+    // background: linear-gradient(360deg, #c7c7c7 0, #0a5c5c);    
+    background-color: #010202;
+    background-image: url(https://transparenttextures.com/patterns/bright-squares.png);
     padding: 5% 9%;
     margin: 0 auto;
 
     #footer-info {
         text-align: center;
-
         h1 {
             font-size: 3em;
             color: #ffff;
@@ -32,7 +33,7 @@
 
             a {
                 color: #fff !important;
-                background: #252222;
+                background: #85161b;
                 padding: 9px 15px;
                 border-radius: 50%;
             }
@@ -44,7 +45,8 @@
 #lower-footer {
     justify-content: center;
     align-items: center;
-    border-top: 1px solid #292929;
+    // border-top: 1px solid #292929;
+     border-top: 1px solid #fff;
 
     img {
         width: 50px;
@@ -138,7 +140,8 @@
     p {
         font-size: 13px;
         padding-top: 2px;
-        color: rgb(0, 0, 0);
+        // color: rgb(0, 0, 0);
+        color: #fff;
     }
 }
 
@@ -157,7 +160,7 @@
     grid-template-columns: 32% 1fr;
 
     a {
-        color: #000000 !important;
+        color: #fff !important;
     }
 }
 
@@ -194,7 +197,7 @@
     }
 
     input[name="submit"] {
-        background: #049cd4;
+        background: #85161b;
         border: none;
         color: #ffff;
         cursor: pointer;
@@ -204,12 +207,12 @@
 
     button {
         margin: 0;
-        background: #049cd4;
+        background: #85161b;
         border-radius: 0;
         border: 0;
 
         &:hover{
-            background-color: #049cd4;
+            background-color: #85161b;
             a{
                 color: white;
             }
